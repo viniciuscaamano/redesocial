@@ -1,20 +1,21 @@
-*{ font-family:sans-serif; }
+*{ font-family:arial; }
 
 
 #rede img{
-    width: 40px; 
+    width: 35px; 
     padding: 10px;
    
   }
 
 #foto img{
-    width: 170px;
+    width: 200px;
     border-radius: 50%;
-    box-shadow: 0px 0px 15px greenyellow;
+    box-shadow: 0px 0px 10px 1px greenyellow;
     
 }
 
-h1{font-size: 20px;
+h1{font-size: 25px;
+    font-weight: 900;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,6 +30,7 @@ h1{font-size: 20px;
 
 }
 #foto{
+margin-top: 100px;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -38,7 +40,7 @@ justify-content: center;
 
 #social{
  
-    margin-top: 60px;
+    margin-top: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,13 +57,13 @@ button{
     width: 600px;
     height: 55px;
     background-color: greenyellow;
-margin: 5px;
+margin: 4px;
  
 
   border-radius: 10px;
 
 font-size: 17px;
-box-shadow: 1px 2px 2px black;
+box-shadow: 0px 2px 1px 1px black;
 color: #000000;
 
 
@@ -92,15 +94,20 @@ background-color: rgba(172, 255, 47, 0.712);
 
 
 @media screen and (max-width: 600px){
-
+    #foto{
+        margin-top: 30px;
+     
+        
+        
+        }
 
     button{
     
         display: flex;
         align-items: center;
     
-        width: 300px;
-        height: 50px;
+        width: 350px;
+        height: 60px;
         background-color: greenyellow;
     margin: 5px;
      
